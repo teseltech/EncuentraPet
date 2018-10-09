@@ -17,3 +17,6 @@ $relative_url: "/";
 @import "bootstrap_assets/_bootstrap";
 
 @import "creative";
+
+$fa-font-path: "{{ "/assets/font-awesome" | relative_url }}";
+@import "font-awesome/_font-awesome";
