@@ -20,3 +20,5 @@ $relative_url: "/";
 
 $fa-font-path: "{{ "/assets/font-awesome" | relative_url }}";
 @import "font-awesome/_font-awesome";
+
+@import "encuentrapet";

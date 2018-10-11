@@ -2,29 +2,78 @@
 layout: default
 ---
 
-<section class="bg-primary" id="about">
+<section class="bg-primary" id="quees">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-        <h2 class="section-heading text-white">We've got what you need!</h2>
+        <h2 class="section-heading text-white">¿Qué es EncuéntraPet?</h2>
         <hr class="light my-4">
-        <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+        <p class="text-faded mb-4">EncuéntraPet es una plataforma digital para encontrar mascotas perdidas.</p>
+        <p class="text-faded mb-4">Utiliza las más modernas tecnologías para conectar a los dueños de las mascotas con las personas que las encuentren.</p>
+        <p class="text-faded mb-4">Nuestro algoritmo de búsqueda está basado en técnicas probadas que aumentan la probabilidad de reunir a una mascota perdida con su familia.</p>
+        <a class="btn btn-light btn-xl js-scroll-trigger" href="#porque">OK, ¿por qué?</a>
       </div>
     </div>
   </div>
 </section>
 
-{% include services.html %}
+<section class="slides encuentrapet-slide-logo d-flex">
+  
+</section>
 
-{% include portfolio.html %}
-
-<section class="bg-dark text-white">
-  <div class="container text-center">
-    <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-    <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+<section class="bg-dark" id="porque">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-heading text-white">¿Por qué hacer EncuéntraPet?</h2>
+        <hr class="light my-4">
+        <p class="text-faded mb-4">Como sociedad hemos desarrollado un alto nivel de empatía hacia los animales. Nuestras mascotas se han vuelto parte de nuestras familias</p>
+        <p class="text-faded mb-4">Según cifras del INEGI, 7 de cada 10 hogares en México cuentan con una mascota, y el 80% de esos hogares cuenta con un perro. Eso se traduce en aproximadamente 5.4 millones de perros</p>
+        <a class="btn btn-light btn-xl js-scroll-trigger" href="#solucion">¿Qué hacer al respecto??</a>
+      </div>
+    </div>
   </div>
 </section>
+
+<section id="dato-duro">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-heading">80%</h2>
+        <p class="mb-5">de las mascotas extraviadas por más de 3 días nunca regresan a casa. :(</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 ml-auto text-center">
+        <i class="fas fa-question-circle fa-4x mb-3"></i>
+        <h3>200</h3>
+        <p class="mb-4">Mascotas perdidas <strong>por semana</strong>, solo en CDMX.</p>
+      </div>
+      <div class="col-lg-4 mr-auto text-center">
+        <i class="fas fa-city fa-4x mb-3"></i>
+        <h3>50 km</h3>
+        <p class="mb-4">Puede caminar un perro en 1 solo día.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 ml-auto text-center">
+        <i class="fas fa-share-square fa-4x mb-3"></i>
+        <p class="mb-4">Las soluciones de búsqueda existentes tienen bajos índices de efectividad: los mensajes en redes sociales llegan muy tarde o a personas que no pueden ayudar por su dispersión geográfica</p>
+      </div>
+      <div class="col-lg-4 mr-auto text-center">
+        <i class="fas fa-map-signs fa-4x mb-3"></i>
+        <p class="mb-4">Sobre todo para mascotas caseras es muy difícil encontrar el camino a casa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slides encuentrapet-slide-maxlost d-flex">
+  
+</section>
+
+
+{% include solucion.html %}
 
 {% include contact.html %}
 
