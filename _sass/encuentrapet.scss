@@ -1,0 +1,110 @@
+#dato-duro h2 {
+    font-size: 6rem;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+header.masthead {
+    background-image: asset-url("assets/img/header-encuentrapet.jpg");
+  }
+
+.encuentrapet-slide-logo {
+    background-image: asset-url("assets/img/encuentrapet-slide-logo.png");
+}
+
+.encuentrapet-slide-maxlost {
+    background-image: asset-url("assets/img/encuentrapet-slide-maxlost.png");
+}
+
+.encuentrapet-slide-app {
+    background-image: asset-url("assets/img/encuentrapet-slide-app.png");
+}
+
+
+.slides {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-position: center center;
+    background-repeat: no-repeat;
+    @include background-cover;
+    background-size: contain;
+    hr {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-weight: 300;
+    }
+    @media (min-width: 768px) {
+      p {
+        font-size: 1.15rem;
+      }
+    }
+    @media (min-width: 992px) {
+      height: 100%;
+      min-height: 650px;
+      padding-top: 0;
+      padding-bottom: 0;
+      h1 {
+        font-size: 3rem;
+      }
+    }
+    @media (min-width: 1200px) {
+      h1 {
+        font-size: 4rem;
+      }
+    }
+  }
+
+
+  /* form */
+  form input, form textarea {
+    margin-bottom: .5em;
+  }
+  
+  input, textarea {
+    font-size: .8em;
+    border: 1px solid $gray-600;
+    background: $white;
+    padding: .9em;
+    transition: all .3s ease-in-out;
+    width: 100%;
+  }
+  
+  button, a.button {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid $primary;
+    color: $primary;
+    background: transparent;
+    line-height: 1em;
+    padding: .6em .9em;
+    transition: all .3s ease-in-out;
+  }
+  
+  button:hover, a.button:hover {
+    border-color: darken($primary, 10%);
+    color: darken($primary, 10%);
+  }
+  
+  button:focus, a.button:focus {
+    outline: 0;
+  
+  }
+  
