@@ -1,1 +1,10 @@
 remote_theme: teseltech/jekyll-bootstrap-4
+plugins:
+  - jekyll-seo-tag
+
+  # SEO
+lang: es_MX
+title: EncuentraPet
+description: "Plataforma digital para encontrar mascotas perdidas"
+logo: assets/img/encuentrapet-slide-logo.png
+author: Tesel
